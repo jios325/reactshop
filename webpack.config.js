@@ -8,6 +8,7 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     mode : 'development',
     resolve: {
@@ -52,9 +53,9 @@ module.exports = {
 
     ],
     devServer: {
+        historyApiFallback: true,
         static: './',
         compress: true,
         port: 3005,
-
     }
 }
