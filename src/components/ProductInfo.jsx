@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ProductInfo.scss';
+import '@tyles/ProductInfo.scss';
 import AddToCart from '@icons/bt_add_to_cart.svg';
 
 
