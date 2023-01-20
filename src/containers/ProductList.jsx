@@ -6,9 +6,9 @@ import '@styles/ProductList.scss';
 
 const API = 'https://api.escuelajs.co/api/v1/products';
 
+
 const ProductList = () => {
 
-	
 	//usa el hook para traer los productos en un arreglo
 	const products = useGetProducts(API);
 

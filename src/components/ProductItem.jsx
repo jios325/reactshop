@@ -8,6 +8,7 @@ const ProductItem = ({ product }) => {
 	const { addToCart } = useContext(AppContext);
 	
 	const handelClick = itemProduct => {
+		console.log(itemProduct);
 		addToCart(itemProduct);
 	}
 	return (
